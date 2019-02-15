@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    color: gray;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.box {
+    margin: 3% 2.5%;
+    border: 2px solid gray;
+    border-radius: .25em;
+    display: block;
+}
+
+h1.title {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1em;
+    width: 30%;
+    font-size: 4em;
+}
+
+.nav {
+    margin: 0 2.5%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav > * {
+    padding: 1em;
+    font-size: 3em;
+    margin: 0 1em;
+}
+
+.content {
+    max-width: 50%;
+    padding: 1em;
+}
+
+.a {
+    color: royalblue;
+    font-weight: 800;
+
+}

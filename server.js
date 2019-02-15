@@ -15,6 +15,9 @@ app.get('/skills', function(req, res) {
     res.sendFile('skills.html');
 })
 
+app.get('/contact', function(req, res) {
+    res.sendFile('contact.html');
+})
 app.listen(3000, function() {
     console.log("You are listening to port 3000");
 })

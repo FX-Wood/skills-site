@@ -7,6 +7,10 @@ app.get('/', function(req, res) {
     res.sendFile('index.html');
 })
 
+app.get('/about', function(req, res) {
+    res.sendFile('about.html');
+})
+
 app.listen(3000, function() {
     console.log("You are listening to port 3000");
 })
